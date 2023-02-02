@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
 
   loader(messageDiv);
-  const response = await fetch('https://chatgpt-server-brown.vercel.app/', {
+  const response = await fetch('https://chatgpt-t2dn.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
